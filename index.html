@@ -25,7 +25,6 @@
             transform: translate(-50%,-50%);
             border-radius: 15px;
             padding: 15px;
-
         }
         .botao {
             width: 50px;
@@ -105,7 +104,7 @@
         function back()
         {
             var resultado = document.getElementById('resultado').innerHTML;
-            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1)
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
         }
 
         function calcular()
@@ -113,11 +112,11 @@
             var resultado = document.getElementById('resultado').innerHTML;
             if (resultado) {
 
-                document.getElementById('resultado').innerHTML = eval(resultado)
+                document.getElementById('resultado').innerHTML = eval(resultado);
 
             } else {
 
-                document.getElementById('resultado').innerHTML = ""
+                document.getElementById('resultado').innerHTML = "";
             }
         }
     </script>

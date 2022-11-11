@@ -98,12 +98,12 @@
         function insertToResult(value) {
 
             document.getElementById('resultado').innerHTML = value;
-        }
+        };
 
         function returnToResult() {
             
             return document.getElementById('resultado').innerHTML;
-        }
+        };
 
         function insert(num) {
 
@@ -113,27 +113,28 @@
             }
 
             insertToResult(numero + num);
-        }
+        };
 
         function clean() {
 
             insertToResult("");
-        }
+        };
 
         function back() {
 
             var resultado = returnToResult();
             insertToResult(resultado.substring(0, resultado.length -1));
-        }
+        };
 
         function calcular() {
 
             var resultado = returnToResult();
+            
             if (resultado) {
 
                 insertToResult(eval(resultado));
             }
-        }
+        };
     </script>
 </body>
 </html>

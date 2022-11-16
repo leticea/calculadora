@@ -108,6 +108,7 @@
         function insert(num) {
 
             var numero = returnToResult();
+            
             if (numero.length >= 15) {
                 return;
             }
@@ -128,10 +129,10 @@
 
         function calcular() {
 
-            var resultado = returnToResult();
+            var resultado = returnToResult();   
             
             if (resultado) {
-
+                
                 insertToResult(eval(resultado));
             }
         };

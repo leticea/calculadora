@@ -17,13 +17,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
 
 ## 💻 Projeto
 
-Criando uma calculadora simples.
+Uma calculadora simples.
 
 Aula do canal [Gustavo Neitzke](https://www.youtube.com/watch?v=42TShjXR0m0)
 
